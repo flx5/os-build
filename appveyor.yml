@@ -1,5 +1,8 @@
 image: Ubuntu2004
 
+install:
+  - git submodule update --init --recursive
+
 test_script:
   - ls Fido
   - ps: Fido/Fido.ps1
