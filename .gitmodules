@@ -1,0 +1,3 @@
+[submodule "Fido"]
+	path = Fido
+	url = https://github.com/pbatard/Fido.git
