@@ -1,6 +1,7 @@
 image: Ubuntu2004
 
 test_script:
+  - ls Fido
   - ps: Fido/Fido.ps1
 
 build: off
