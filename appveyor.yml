@@ -4,7 +4,7 @@ install:
   - git submodule update --init --recursive
 
 test_script:
-  - ls Fido
+  - df -h
   - pwsh ./Fido.ps1 -Headless -cliVersionName "Windows 10" -cliReleaseName "21H1 (Build 19043.985 - 2021.05)" -cliEditionName "Windows 10 Home/pro" -cliLanguage "English" -cliArch x64
 
 build: off
